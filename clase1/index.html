@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentación Profesional</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para el menú responsive */
+        .menu-hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+
+    <!-- Cabecera -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto p-4 flex justify-between items-center">
+            <a href="#inicio" class="text-2xl font-semibold text-blue-600">Portfolio</a>
+            <div class="hidden md:flex space-x-6 text-lg">
+                <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+                <a href="#sobre-mi" class="hover:text-blue-600">Sobre Mí</a>
+                <a href="#habilidades" class="hover:text-blue-600">Habilidades</a>
+                <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+            </div>
+            <button id="menuToggle" class="md:hidden text-2xl focus:outline-none">
+                &#9776;
+            </button>
+        </nav>
+
+        <!-- Menú Responsive -->
+        <div id="menuResponsive" class="menu-hidden md:hidden bg-white shadow-lg">
+            <a href="#inicio" class="block px-4 py-2 text-lg text-gray-800 hover:bg-gray-200">Inicio</a>
+            <a href="#sobre-mi" class="block px-4 py-2 text-lg text-gray-800 hover:bg-gray-200">Sobre Mí</a>
+            <a href="#habilidades" class="block px-4 py-2 text-lg text-gray-800 hover:bg-gray-200">Habilidades</a>
+            <a href="#contacto" class="block px-4 py-2 text-lg text-gray-800 hover:bg-gray-200">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container mx-auto p-6 md:p-12">
+        <!-- Inicio -->
+        <section id="inicio" class="text-center my-16">
+            <img src="img/img1.jpg" alt="Foto de Perfil" class="w-40 h-40 mx-auto rounded-full ">
+            <h1 class="text-4xl font-bold mt-6 text-gray-900">Jose Maria suero cuevas</h1>
+            <h2 class="text-2xl text-gray-600 mt-2">ING. EN SISTEMA COMPUTACIONALES</h2>
+            <p class="mt-4 text-gray-700">Correo: <a href="josemariasuerocuevas@gmail.com" class="text-blue-600">josemariasuerocuevas@gmail.com</a> | Teléfono: 829-912-3452 | País: Republica Dominicana</p>
+            <div class="mt-4 space-x-4">
+                
+                <a href="https://github.com/jose123-dot" class="text-blue-600 hover:underline">GitHub</a>
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="sobre-mi" class="my-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Sobre Mí</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">Soy un profesional apasionado por la Tecnologia y  en el Desarrollo Web . Con 2 años de experiencia en el desarrollo de api rest en Typescript,  Mi objetivo es siempre aprender de lo nuevo que ofrece la tecnologia.</p>
+            <h3 class="text-2xl font-bold text-gray-900 mt-10 mb-4">Educación</h3>
+            <p class="text-lg text-gray-700"> Ing. en Sistema</p>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="my-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Habilidades</h2>
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-lg text-gray-700">
+                <li class="bg-white p-4 rounded-lg shadow-sm">Desarrollo Web con html, css y Javascript</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm">Backend con NODEJS, NESTJS</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm">Desarrollo Frontend con React</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm">Bases de datos Relacionales con SQL SERVER</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm">Bases de datos No SQL con MongoDB</li>
+                <li class="bg-white p-4 rounded-lg shadow-sm">Control de Versiones con git y Github</li>
+            </ul>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="my-16">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Contacto</h2>
+            <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-bold text-gray-700">Nombre:</label>
+                        <input type="text" id="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-bold text-gray-700">Correo Electrónico:</label>
+                        <input type="email" id="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block text-sm font-bold text-gray-700">Asunto:</label>
+                        <input type="text" id="subject" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-bold text-gray-700">Mensaje:</label>
+                        <textarea id="message" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition duration-300">Enviar</button>
+                </form>
+                <p id="responseMessage" class="mt-4 text-center"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="bg-gray-900 text-white p-6 text-center">
+        <p>&copy; 2024 Jose Maria suero Cuevas. Todos los derechos reservados.</p>
+        <div class="mt-4 space-x-6">
+            <a href="https://github.com/jose123-dot" class="hover:text-blue-400">Github</a>
+            
+        </div>
+    </footer>
+
+   <script src="js/main.js"></script>
+</body>
+</html>
+
