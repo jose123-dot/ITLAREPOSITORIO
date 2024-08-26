@@ -1,0 +1,21 @@
+{
+  "name": "tasklistmodulo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint": "^9.9.1",
+    "typescript": "^5.5.4"
+  }
+}

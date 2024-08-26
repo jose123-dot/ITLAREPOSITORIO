@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.271090-alpha">
+  <ItemGroup>
+    <Folder Include="interface\" />
+    <Folder Include="View\" />
+  </ItemGroup>
+</Project>
