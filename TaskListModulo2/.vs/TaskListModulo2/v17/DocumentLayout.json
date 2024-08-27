@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\",
+  "WorkspaceRootPath": "C:\\Users\\w10\\Desktop\\Cursos\\ITLAREPOSITORIO\\TaskListModulo2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|c:\\users\\w10\\source\\repos\\tasklistmodulo2\\tasklistmodulo2\\view\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|c:\\users\\w10\\desktop\\cursos\\itlarepositorio\\tasklistmodulo2\\tasklistmodulo2\\view\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|solutionrelative:tasklistmodulo2\\view\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|c:\\users\\w10\\source\\repos\\tasklistmodulo2\\tasklistmodulo2\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|solutionrelative:tasklistmodulo2\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|c:\\users\\w10\\source\\repos\\tasklistmodulo2\\tasklistmodulo2\\interface\\itask.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{B9ED55F2-5CAF-49BB-A54D-7EC41239F801}|TaskListModulo2\\TaskListModulo2.esproj|solutionrelative:tasklistmodulo2\\interface\\itask.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,46 +37,16 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ITask.ts",
-              "DocumentMoniker": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\interface\\ITask.ts",
-              "RelativeDocumentMoniker": "TaskListModulo2\\interface\\ITask.ts",
-              "ToolTip": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\interface\\ITask.ts",
-              "RelativeToolTip": "TaskListModulo2\\interface\\ITask.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-26T21:04:46.036Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\View\\index.html",
+              "DocumentMoniker": "C:\\Users\\w10\\Desktop\\Cursos\\ITLAREPOSITORIO\\TaskListModulo2\\TaskListModulo2\\View\\index.html",
               "RelativeDocumentMoniker": "TaskListModulo2\\View\\index.html",
-              "ToolTip": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\View\\index.html",
+              "ToolTip": "C:\\Users\\w10\\Desktop\\Cursos\\ITLAREPOSITORIO\\TaskListModulo2\\TaskListModulo2\\View\\index.html",
               "RelativeToolTip": "TaskListModulo2\\View\\index.html",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-08-26T21:03:11.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.ts",
-              "DocumentMoniker": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\app.ts",
-              "RelativeDocumentMoniker": "TaskListModulo2\\app.ts",
-              "ToolTip": "C:\\Users\\w10\\source\\repos\\TaskListModulo2\\TaskListModulo2\\app.ts",
-              "RelativeToolTip": "TaskListModulo2\\app.ts",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAiwCoAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-26T21:01:36.587Z",
               "EditorCaption": ""
             }
           ]
